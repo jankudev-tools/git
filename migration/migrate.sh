@@ -75,5 +75,6 @@ git remote add origin "${NEW_ORIGIN}"
 git push origin --all
 git push --tags
 
-# done message
+# finishing touches
+popd
 echo "Migration from ${OLD_ORIGIN} to ${NEW_ORIGIN} successful"
